@@ -75,7 +75,7 @@ h1{
     bottom: 0;
     left:0;
     right: 0;
-    /* display: flex; */
+    display: flex;
     display: none;
     align-items: center;
     justify-content: center;
@@ -103,17 +103,17 @@ h1{
     outline: none;
 }
 
-.notication-container{
+.notification-container{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px 10px 0 0;
     padding: 15px 20px;
-    position: absolutie;
+    position: absolute;
     bottom: -50px;
     transition: transform 0.3s ease-in-out;
 }
-.notication-container p {
+.notification-container p {
     margin: 0;
 }
-.notication-container.show{
+.notification-container.show{
     transform: translateY(-50px);
 }
